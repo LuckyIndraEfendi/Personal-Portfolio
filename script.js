@@ -65,13 +65,13 @@ $(document).on({
   }
 });
 
-// function disableselect(e){  
-//   return false  
-//   }  
+function disableselect(e){  
+  return false  
+  }  
   
-//   function reEnable(){  
-//   return true  
-//   }  
+  function reEnable(){  
+  return true  
+  }  
   
 //   //if IE4+  
   // document.onselectstart=new Function ("return false")  
@@ -124,3 +124,8 @@ if(typeof fuckAdBlock !== 'undefined' || typeof FuckAdBlock !== 'undefined') {
 	importFAB.src = 'https://cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js';
 	document.head.appendChild(importFAB);
 }
+
+// let spinners = document.querySelector(".spinner");
+// window.addEventListener("load", function () {
+//   spinners.style.display = "none"
+// })

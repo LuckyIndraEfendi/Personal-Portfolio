@@ -16,29 +16,20 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script type='text/javascript' src='http://code.jquery.com/jquery-1.4.4.min.js'></script>
 
-
+    <script type="text/javascript"> 
+  jQuery(document).ready(function(){
+  jQuery(function() {
+        jQuery(this).bind("contextmenu", function(event) {
+            event.preventDefault();
+            alert('Hayoo... Mau Copy Element ya 🤣')
+        });
+    });
+});
+      </script>
 </head>
 <body>
-  <!-- Button trigger modal -->
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="position: absolute; top:5%; left:40%;z-index: 999;">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-cmddismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
+  
+  
   <!-- Scroll Top  -->
 <a href="#"> 
   <div class="scroll-top" data-aos="fade-zoom-in"
@@ -77,16 +68,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item nav-items">
-              <a class="nav-link" href="#service">Service</a>
-            </li>
-            <li class="nav-item nav-items">
               <a class="nav-link" href="#project">Project</a>
-            </li>
-            <li class="nav-item nav-items">
-              <a class="nav-link" href="#resume">Resume</a>
-            </li>
-            <li class="nav-item nav-items">
-              <a class="nav-link" href="#teams">Teams</a>
             </li>
             <li class="nav-item nav-items">
               <a class="nav-link" href="#blog">Blog</a>
@@ -135,29 +117,29 @@
           <div class="row">
             <div class="col-md-6 mt-4">
               <div class="max-width">
-               <img src="img/about-1.jpg"alt="" >
+               <img src="img/WhatsApp_Image_2022-03-18_at_19.11.31-removebg-preview (1).png" width="100%" height="680px" alt="" >
             </div>
             </div>
             <div class="col-md-6 mt-4">
               <h1 class="fs-2 fw-bold text-white mb-4">Hello, i'm Lucky Taylor</h1>
-              <p class="about-text about-grid-two">To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is. The European languages are members of the same family.English person,</p>
+              <p class="about-text about-grid-two">Hai Perkenalkan nama saya Lucky Indra Efendi, Saya dari jurusan TKJ tapi saya sangat menekuni bidang RPL. Tujuan saya disini adalah saya ingin melamar pekerjaan di perusahaan Infra Digital Foundation dengan sebagai Front End Web Developer, Selain dari itu saya mempunyai Keahlian atau Softskills Sebagai Berikut</p>
               <div class="progressbar">
               <div class="progress-one">
-                <h1 class="fs-6 fw-bold text-white-50 p-line">Product Desaign</h1>
+                <h1 class="fs-6 fw-bold text-white-50 p-line">Web Desaign</h1>
                 <h5 class="text-end fs-6 text-white-50">100%</h5>
                 <div class="bg-first-bar">
                   <div class="clr-first-bar"></div>
                 </div>
               </div>
               <div class="progress-two">
-                <h1 class="fs-6 fw-bold text-white-50 p-line">Ux Desaign</h1>
+                <h1 class="fs-6 fw-bold text-white-50 p-line">Css, Scss & JavaScript</h1>
                 <h5 class="fs-6 text-white-50 text-end">90%</h5>
                 <div class="bg-first-bar">
                   <div class="clr-first-bar clr-bar-two"></div>
                 </div>
               </div>
               <div class="progress-three">
-                <h1 class="fs-6 fw-bold text-white-50 p-line">Mobile Desaign</h1>
+                <h1 class="fs-6 fw-bold text-white-50 p-line">Responsive Web Design</h1>
                 <h5 class="text-end fs-6 text-white-50">70%</h5>
                 <div class="bg-first-bar">
                   <div class="clr-first-bar clr-bar-three"></div>
@@ -177,7 +159,7 @@
       <!-- Akhir About -->
 
       <!-- Service -->
-       <section id="service">
+       <!-- <section id="service">
         <div class="container">
           <div class="row">
             <div class="col mb-5 p-4 item-service">
@@ -206,7 +188,7 @@
             <p class="text-white-50 mt-3">To an English person, it will seem like simplified English,told me what</p>
           </div>
          </div>
-         <!-- Bottom -->
+
          <div class="col-md-4 space-items ">
           <div class="header-branding ">
             <img src="img/service_icon2.png" alt="">
@@ -231,7 +213,7 @@
        </div>
        
         </div>
-      </section> 
+      </section>  -->
       <!-- Akhir Service -->
 
       <!-- Counter -->
@@ -240,15 +222,15 @@
       <div class="counter-value">
         <div class="row text-center">
           <div class="col-md-4 counter-items-loop">
-            <h1 class="counter-items"><span class="counter"  data-target="1500">10</span><span class=" text-danger align-text-top fs-4">+</span></h1>
+            <h1 class="counter-items"><span class="counter"  data-target="5">0</span><span class=" text-danger align-text-top fs-4">+</span></h1>
             <h1 class="fs-5 fw-bold text-white text-center">Happy Client</h1>
           </div>
           <div class="col-md-4 counter-items-loop">
-           <h1 class="counter-items"><span class="counter" data-target="5600">0</span><span class=" text-danger align-text-top fs-4">+</span></h1>
+           <h1 class="counter-items"><span class="counter" data-target="36">0</span><span class=" text-danger align-text-top fs-4">+</span></h1>
            <h1 class="fs-5 fw-bold text-white text-center">Successful Project</h1>
           </div>
          <div class="col-md-4 counter-items-loop">
-           <h1 class="counter-items"><span class="counter"  data-target="3400">0</span><span class=" text-danger align-text-top fs-4">+</span></h1>
+           <h1 class="counter-items"><span class="counter"  data-target="1">0</span><span class=" text-danger align-text-top fs-4">+</span></h1>
            <h1 class="fs-5 fw-bold text-white text-center">Team Members</h1>
           </div>
         </div>
@@ -274,16 +256,16 @@
          <div class="text-thumbnail"  data-aos="fade-up"
          data-aos-duration="800">
            <h2 class="shadow-lg" >Website Belajar Online</h2>
-         <h5>Branding</h5>
+         <p class="fs-6 text-white-50">Dengan adanya website ini adalah, memungkin kan kita untuk belajar lebih jauh tentang dunia IT, namun website ini belum sepenuhnya jadi dan masih dalam tahap pengembangan</p>
         <div class="live-demo">
-          <button type="button" class="btn btn-danger">Live Demo</button>
+       <a href="https://luckyindraefendi.github.io/Lucky-Course-Created-Study-Web/" target="_blank"><button type="button" class="btn btn-danger">Live Demo</button></a>
         </div>
          </div>
         </div>
           </div>
           </div>
           </div>
-         <div class="col-md-6">
+         <div class="col-md-6 column-2">
           <div class="bg-image-2">
             <div class="preview"></div>
           <div class="thumbnail" >
@@ -291,9 +273,9 @@
          <div class="text-thumbnail"  data-aos="fade-up"
          data-aos-duration="800">
            <h2 class="shadow-lg" >Membuat Website E-Commerce</h2>
-         <h5>Branding</h5>
+         <p class="fs-6 text-white-50">Website E-Commerce ini adalah website yang saya buat untuk berbelanja voucher game secara online, namun website ini belum bisa mengolah data dan masih dalam tahap pengembangan</p> 
          <div class="live-demo">
-          <button type="button" class="btn btn-danger">Live Demo</button>
+         <a href="https://luckyindraefendi.github.io/Indostore/" target="_blank"> <button type="button" class="btn btn-danger">Live Demo</button></a>
         </div>
          </div>
         </div>
@@ -313,7 +295,7 @@
          <h2 class="shadow-lg" >Parallax Scroll Effect</h2>
        <h5>Branding</h5>
        <div class="live-demo">
-        <button type="button" class="btn btn-danger">Live Demo</button>
+        <a href="https://luckyindraefendi.github.io/Parallax-Scroll-Effect/" target="_blank"><button type="button" class="btn btn-danger">Live Demo</button></a>
       </div>
        </div>
       </div>
@@ -330,7 +312,7 @@
          <h2 class="shadow-lg" >Aov Wallpaper  Generator</h2>
        <h5>Branding</h5>
        <div class="live-demo">
-        <button type="button" class="btn btn-danger ">Live Demo</button>
+       <a href="https://luckyindraefendi.github.io/Aov-generator/" target="_blank"> <button type="button" class="btn btn-danger ">Live Demo</button></a>
       </div>
        </div>
       </div>
@@ -344,10 +326,10 @@
      <div class="bg-thumbnail">
       <div class="text-thumbnail"  data-aos="fade-up"
       data-aos-duration="800">
-        <h2 class="shadow-lg" >Membuat Online Shop</h2>
-      <h5>Branding</h5>
+        <h2 class="shadow-lg" >Game Pukul Tikus Tanah</h2>
+      <p class="text-white-50">Memukul Tikus dengan menggunakan Palu dan meraih skor tertinggi</p>
       <div class="live-demo">
-        <button type="button" class="btn btn-danger ">Live Demo</button>
+       <a href="https://luckyindraefendi.github.io/Pukul-Tikus-Tanah/" target="_blank"> <button type="button" class="btn btn-danger ">Live Demo</button></a>
       </div>
       </div>
      </div>
@@ -357,218 +339,6 @@
     </div>
    </section> 
 
-
-   <!-- Resume -->
-   <section id="resume">
-     <div class="container">
-    <div class="row">
-      <div class="col">
-        <h2 class="fw-2 text-white" >Resume</h2>
-      </div>
-    </div>
-    <div class="row my-5">
-      <div class="col-md-4">
-        <div class="resume-info-selector">
-          <h4 class="main-tittle text-white">Experience</h4>
-          <p class="separator">
-           To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine.
-          </p>
-      <div class="rest-list">
-      <div class="line-size">
-        <div class="border-line"></div>
-      </div>
-        <li class="mt-3">
-          <h2 class="photo-agency">Photo Agency Shutter</h2>
-          <p class="tittle-photo">Photographer-intern 2016–2017</p>
-        </li>
-        <li class="mt-3">
-          <h2 class="photo-agency">Studio e.Oliver</h2>
-          <p class="tittle-photo">Photographer-retoucher 2017–Present</p>
-        </li>
-        <li></li>
-      </div>
-        </div>
-      </div>
-      <div class="col-md-4 mt-4 sm-mt-0">
-        <div class="resume-info-selector">
-          <h4 class="main-tittle text-white">Experience</h4>
-          <p class="separator">
-           To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine.
-          </p>
-      <div class="rest-list">
-      <div class="line-size">
-        <div class="border-line"></div>
-      </div>
-        <li class="mt-3">
-          <h2 class="photo-agency">Photo Agency Shutter</h2>
-          <p class="tittle-photo">Photographer-intern 2016–2017</p>
-        </li>
-        <li class="mt-3">
-          <h2 class="photo-agency">Studio e.Oliver</h2>
-          <p class="tittle-photo">Photographer-retoucher 2017–Present</p>
-        </li>
-        <li></li>
-      </div>
-        </div>
-      </div>
-      <div class="col-md-4 ">
-        <div class="resume-info-selector">
-          <h4 class="main-tittle text-white">Experience</h4>
-          <p class="separator">
-           To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine.
-          </p>
-      <div class="rest-list">
-      <div class="line-size">
-        <div class="border-line"></div>
-      </div>
-        <li class="mt-3">
-          <h2 class="photo-agency">Photo Agency Shutter</h2>
-          <p class="tittle-photo">Photographer-intern 2016–2017</p>
-        </li>
-        <li class="mt-3">
-          <h2 class="photo-agency">Studio e.Oliver</h2>
-          <p class="tittle-photo">Photographer-retoucher 2017–Present</p>
-        </li>
-        <li></li>
-      </div>
-        </div>
-      </div>
-    </div>
-     </div>
-   </section>
-
-
-  <!-- Team Show Case -->
-  <section id="teams">
- <div class="bg-teams">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <h2 class="team-tittle">Our Team Show Case</h2> 
-      </div>
-    </div>
-    <div class="container">
-      <div class="container-main ms-lg-5">
-        <input type="radio" name="dot" id="one">
-        <input type="radio" name="dot" id="two">
-        <div class="main-card">
-          <div class="cards">
-            <div class="card">
-             <div class="content">
-               <div class="img">
-                <!--- <img src="images/img1.jpg" alt="">-->
-               </div>
-               <div class="details">
-                 <div class="name">Andrew Neil</div>
-                 <div class="job">Web Designer</div>
-               </div>
-               <div class="media-icons">
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
-               </div>
-             </div>
-            </div>
-            <div class="card">
-             <div class="content">
-               <div class="img">
-                <!--- <img src="images/img2.jpg" alt="">--->
-               </div>
-               <div class="details">
-                 <div class="name">Jasmine Carter</div>
-                 <div class="job">UI Designer</div>
-               </div>
-               <div class="media-icons">
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
-               </div>
-             </div>
-            </div>
-            <div class="card">
-             <div class="content">
-               <div class="img">
-                <!-- <img src="images/img3.jpg" alt="">---->
-               </div>
-               <div class="details">
-                 <div class="name">Justin Chung</div>
-                 <div class="job">Web Devloper</div>
-               </div>
-               <div class="media-icons">
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
-               </div>
-             </div>
-            </div>
-          </div>
-          <div class="cards">
-            <div class="card">
-             <div class="content">
-               <div class="img">
-                 <!---<img src="images/img4.jpg" alt="">--->
-               </div>
-               <div class="details">
-                 <div class="name">Appolo Reef</div>
-                 <div class="job">Web Designer</div>
-               </div>
-               <div class="media-icons">
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
-               </div>
-             </div>
-            </div>
-            <div class="card">
-             <div class="content">
-               <div class="img">
-                 <!--<img src="images/img5.jpg" alt="">---->
-               </div>
-               <div class="details">
-                 <div class="name">Adrina Calvo</div>
-                 <div class="job">UI Designer</div>
-               </div>
-               <div class="media-icons">
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
-               </div>
-             </div>
-            </div>
-            <div class="card">
-             <div class="content">
-               <div class="img">
-                 <!--<img src="images/img6.jpeg" alt="">--->
-               </div>
-               <div class="details">
-                 <div class="name">Nicole Lewis</div>
-                 <div class="job">Web Devloper</div>
-               </div>
-               <div class="media-icons">
-                 <a href="#"><i class="fab fa-facebook-f"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
-               </div>
-             </div>
-            </div>
-          </div>
-        </div>
-        <div class="button">
-          <label for="one" class=" active one"></label>
-          <label for="two" class="two"></label>
-        </div>
-      </div>
-    </div>
-  </div>
-
- </div>
-  </section>
 
 
   <!-- Blog -->
@@ -581,32 +351,35 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-left"
+        data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
           <div class="journal-item">
-            <img src="https://keira.inaikas.com/wp-content/uploads/2021/02/4.jpg" width="100%" alt="">
+            <img src="blog/programer.jpeg" width="100%" alt="">
             <div class="journal-info">
-              <h2 class="journal-tittle">Ways To Motivate Yourself</h2>
-              <p class="journal-description">Ways To Motivate Yourself. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod …</p>
+              <h2 class="journal-tittle">Create a Responsive Website</h2>
+              <p class="journal-description">Membuat website adalah sebagian dari hobi saya, saya telah menghabiskan waktu untuk membuat website yang dinamis dan responsive, selain itu adapun framwork yang sering saya gunakan yaitu Boostrap, Tailwind , React Js dan Aos JS .</p>
             </div>
             <div class="border-btm"></div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
           <div class="journal-item">
-            <img src="https://keira.inaikas.com/wp-content/uploads/2021/02/4.jpg" width="100%" alt="">
+            <img src="blog/gamer.jpeg" width="100%" alt="">
             <div class="journal-info">
-              <h2 class="journal-tittle">Ways To Motivate Yourself</h2>
-              <p class="journal-description">Ways To Motivate Yourself. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod …</p>
+              <h2 class="journal-tittle">Playing games when bored</h2>
+              <p class="journal-description">hampir setiap hari saya menghabiskan waktu saya untuk belajar membuat website yang dinamis, maka dari itu saya meluangkan waktu untui bermain game sebentar.</p>
             </div>
             <div class="border-btm"></div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-right"
+        data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
           <div class="journal-item">
-            <img src="https://keira.inaikas.com/wp-content/uploads/2021/02/4.jpg" width="100%" alt="">
+            <img src="blog/swimming.jpeg" width="100%" alt="">
             <div class="journal-info">
-              <h2 class="journal-tittle">Ways To Motivate Yourself</h2>
-              <p class="journal-description">Ways To Motivate Yourself. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod …</p>
+              <h2 class="journal-tittle">I like swimming during the day.</h2>
+              <p class="journal-description">Saya sangat menyukai hobi berenang, apalagi ketika berenang di siang hari, momen tersebut sangat indah bagi saya. selain dari itu saya juga ingin menikmati pemandangan tersebut dengan teman-teman saya.</p>
             </div>
             <div class="border-btm"></div>
           </div>
@@ -669,7 +442,7 @@
   <div class="row">
     <div class="col-md-4">
       <ul >
-        <li class="copy-right mt-1">© Copyrights Inaikas 2022. All Rights Reserved.</li>
+        <li class="copy-right mt-1">© Copyrights Lucky 2022. All Rights Reserved.</li>
       </ul>
     </div>
     <div class="col-md-4">
@@ -705,14 +478,14 @@
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       <script>
         AOS.init({
-          once:false
+          once:true
         });
       </script>
     
     <!-- Detect ads blockers and disable them automatically -->
-   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/fuckadblock@3.2.1/fuckadblock.min.js"></script>
-      -->
+    
    <!-- Swiper Js -->
    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
       <script src="path-to-the-file/splide.min.js"></script>
